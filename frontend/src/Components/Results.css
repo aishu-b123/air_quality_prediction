@@ -1,0 +1,204 @@
+.results-wrapper {
+  width:100%;
+  font-family: "Segoe UI", sans-serif;
+  padding: 1rem;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.results-navbar {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 1rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.globe-icon {
+  font-size: 5.5rem;
+  color: #00796b;
+}
+
+.results-main {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-top: 2rem;
+  justify-content: space-between;
+}
+
+/* Left AQI Card */
+.aqi-card {
+  flex: 1;
+  min-width: 300px;
+  text-align: center;
+  border-radius: 16px;
+  padding: 1.5rem;
+  /*box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);*/
+}
+
+.aqi-card h2 {
+  margin-bottom: 0.5rem;
+  font-size: 1.5rem;
+}
+
+.aqi-score {
+  font-size: 2.8rem;
+  font-weight: bold;
+  color: #1b331c;
+  margin-left:6rem;
+  
+}
+
+.aqi-status {
+  font-weight: bold;
+  color: #555;
+  margin-bottom: 1rem;
+}
+
+.aqi-suggestion{
+  display:flex;
+  justify-content: space-around;
+  margin-left:8rem;
+}
+.suggestion{
+  margin-top: 1rem;
+}
+.info-btn{
+  padding:1rem;
+  right:0;
+  color:#3b8c7a
+}
+.info{
+  margin-left:77rem;
+}
+
+.pollutant-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
+  gap: 0.8rem;
+  margin-top: 1rem;
+}
+
+.pollutant-box {
+  padding: 0.6rem;
+  border-radius: 10px;
+  color: #333;
+  text-align: center;
+  font-size: 0.9rem;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.08);
+}
+
+.pollutant-name {
+  font-weight: 600;
+}
+
+.pollutant-value {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+/* Right Bar */
+.aqi-bar-container {
+  flex: 1;
+  min-width: 300px;
+  padding: 1.5rem;
+  border-radius: 16px;
+  text-align: center;
+}
+
+.aqi-bar-container h2 {
+  margin-bottom: 1rem;
+}
+
+/* Lower Section */
+.results-lower {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2.5rem;
+  margin-top: 2.5rem;
+  justify-content: space-between;
+}
+
+.pie-chart-card{
+  flex: 1;
+  min-width: 200px;
+  max-width: 500px;
+  border-radius: 16px;
+  padding: 2rem;
+}
+.suggestions-res {
+  flex:1;
+  background: rgba(62, 95, 75, 0.2);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  color: #333;
+  transition: all 0.3s ease;
+  text-align: center;
+  font-size: 1.25rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  height: fit-content;
+  margin-bottom: 80px;
+  margin-top: 80px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.pie-chart-card h3 {
+  margin-bottom: 1rem;
+  font-size: 1.25rem;
+}
+.suggestions-res h3 {
+  margin-bottom: 2rem;
+  font-size: 2.25rem;
+  color: #1b331c;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.suggestions-res ul {
+  list-style: none;
+  padding-left: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.view-more-btn {
+  background-color: #3b8c7a !important;
+  color: #fff !important;
+  font-weight: 600;
+  margin-top: 0.5rem;
+}
+.aqi-graph{
+  margin-top:5rem;
+}
+.aqi-image {
+  min-width: 200px;
+  margin-right: 10rem;     
+  height: auto;               
+  width: auto;
+  max-height: none;
+  transform: scale(1.5);
+  transform-origin: top right; 
+  margin-top:8rem;   
+  transition: transform 0.3s ease-in-out;
+}
+
+
+.aqi-image:hover {
+  transform: scale(1.8); /* Grows by 20% */
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+  .results-main,
+  .results-lower {
+    flex-direction: column;
+  }
+
+  .pollutant-grid {
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+  }
+}

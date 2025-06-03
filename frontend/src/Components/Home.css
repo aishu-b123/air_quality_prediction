@@ -1,0 +1,161 @@
+
+.home-wrapper {
+  display: flex;
+  margin-top: 60px;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+  min-height: 100vh;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* 🔹 Left Card */
+.left-card {
+  background-color: #e6f4ff;
+  padding:0.7rem 2.5rem;
+  border-radius: 16px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 240px;
+  margin-right: 1.5rem;
+}
+
+.left-card h3 {
+  color: #2b5d8c;
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+}
+
+.left-card button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 0.5rem 1.2rem;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  
+}
+
+.left-card button:hover {
+  background-color: #0056b3;
+}
+
+.sidebar-popup {
+  margin-top: 1.5rem;
+}
+
+/* 🟢 Center Main Content */
+.center-content {
+  background-color: transparent;
+  padding: 2rem;
+  width: 100%;
+  max-width: 500px;
+  box-shadow: none;
+  text-align: center;
+  z-index: 1;
+  margin: 70px;
+  margin-left: 290px;
+  margin-bottom: 230px;
+}
+.center-content.offline-mode{
+  margin-left: 150px;
+}
+
+.logo {
+  height: 200px;
+  margin-bottom: 1rem;
+}
+
+.tagline {
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #2a8c57;
+  margin-bottom: 2rem;
+}
+
+.city-input {
+  margin-bottom: 1rem;
+  background: white;
+  padding:10rem 5rem;
+}
+
+.predict-btn {
+  background-color: #1976d2 !important;
+  color: white !important;
+  border-radius: 8px;
+  padding: 0.6rem 2rem;
+  font-weight: 500;
+  margin-top:10px;
+}
+
+.aqi-result {
+  background: #7ce3c1;
+  margin-top: 1.5rem;
+  padding: 1rem;
+  border-radius: 12px;
+  color: #333;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.05);
+}
+
+/* 💬 Chatbot Icon */
+.chatbot-icon {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  background: white;
+  border: 2px solid #ff5fc0;
+  color: black;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: transform 0.2s;
+  z-index: 2;
+}
+
+.chatbot-icon:hover {
+  transform: scale(1.1);
+}
+
+/* 🔎 Visualize Button Style */
+.visualize-btn {
+  margin-top: 1rem;
+  padding: 0.6rem 1.5rem;
+  border-radius: 10px;
+  border: 2px solid #1976d2;
+  color: #1976d2;
+  background-color: #e3f2fd;
+  font-weight: 500;
+  transition: all 0.3s ease-in-out;
+}
+
+.visualize-btn:hover {
+  background-color: #bbdefb;
+  border-color: #115293;
+  color: #0d47a1;
+}
+
+/* 📱 Responsive Design */
+@media (max-width: 768px) {
+  .home-wrapper {
+    flex-direction: column;
+    padding: 1rem;
+  }
+
+  .left-card {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 1rem;
+  }
+
+  .center-content {
+    width: 100%;
+    margin-top: 1rem;
+  }
+}
+

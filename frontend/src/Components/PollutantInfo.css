@@ -1,0 +1,46 @@
+.pollutant-scroll-container {
+    /* max-width: 1200px; */
+    margin: 20px 50px;
+    padding: 35px;
+    font-family: sans-serif;
+    background-color: transparent;
+    border-radius: 10px;
+  }
+  .pollutant-heading{
+    justify-content: center;
+  }
+  
+  .pollutant-scroll-container h2 {
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #222;
+  }
+  
+  .pollutant-boxs {
+    display: grid;
+    /* grid-template-columns: repeat(auto-fill, minmax(300px, 3fr)); Creates a responsive grid */
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px; /* Adds spacing between the boxes */
+    padding: 10px 0;
+  }
+  
+  .pollutant-block {
+    padding: 20px;
+    background-color: #f3f6f9;
+    border-radius: 8px;
+    border-left: 6px solid #9aeab5;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .pollutant-block h3 {
+    color: #038740;
+    margin-bottom: 10px;
+    font-size: 20px;
+  }
+  
+  .pollutant-block p {
+    margin: 6px 0;
+    line-height: 1.6;
+  }
+  
