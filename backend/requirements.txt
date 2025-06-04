@@ -5,7 +5,3 @@ scikit-learn
 requests
 flask-cors
 gunicorn
-<<<<<<< HEAD
-=======
-
->>>>>>> f95971b (gunicorn added)
