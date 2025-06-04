@@ -11,7 +11,7 @@ import ResultsPage from "./Components/Results.jsx";
 import PollutantInfo from "./Components/PollutantInfo.jsx";
 import "./styles.css";
 
-const API_URL = import.meta.env.VITE_API_URL || "http://127.0.0.1:5000";
+const API_URL = import.meta.env.VITE_API_URL || "https://air-quality-prediction-0k3d.onrender.com";
 
 const App = () => {
   const [aqiData, setAqiData] = useState(null);
