@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import './Reports.css';
 import {
   LineChart, Line, XAxis, YAxis, Tooltip, Legend,
