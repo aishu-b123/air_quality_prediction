@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './reports.css';
+import './Reports.css';
 import {
   LineChart, Line, XAxis, YAxis, Tooltip, Legend,
   ResponsiveContainer, CartesianGrid, BarChart, Bar,AreaChart, Area
