@@ -34,8 +34,10 @@ file_path = "data/air_quality_data.csv"
 df = pd.read_csv(file_path)
 
 # Initialize Flask app
+# app = Flask(__name__)
+# CORS(app, resources={r"/*": {"origins": "*"}})
 app = Flask(__name__)
-CORS(app, resources={r"/*": {"origins": "*"}})
+CORS(app, origins="https://air-quality-prediction-git-main-akhilasris-projects.vercel.app")
 
 # Load trained model
 model, X_columns = load_model()
