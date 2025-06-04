@@ -1,4 +1,5 @@
 from flask import Flask, request, jsonify
+from flask import send_from_directory
 import requests
 from flask_cors import CORS
 import os
@@ -240,6 +241,13 @@ def get_reports(city):
     pprint.pprint({k: response[k] if k != "historical" else "historical data hidden for brevity" for k in response})
 
     return jsonify(response)
+
+@app.route("/", defaults={"path": ""})
+@app.route("/<path:path>")
+def serve_react(path):
+    if path != "" and os.path.exists(os.path.join("../frontend/dist", path)):
+        return send_from_directory("../frontend/dist", path)
+    return send_from_directory("../frontend/dist", "index.html")
 
 
 if __name__ == "__main__":
