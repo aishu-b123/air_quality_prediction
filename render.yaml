@@ -1,0 +1,19 @@
+services:
+  - type: web
+    name: air-quality-app
+    env: python
+    plan: free
+    buildCommand: |
+      cd frontend && npm install && npm run build
+    startCommand: |
+      cd backend && gunicorn app:app --bind 0.0.0.0:10000
+    envVars:
+      - key: OPENWEATHER_API_KEY
+        value: "883258cf70a3b71f8b19355003aae14d"
+      - key: GOOGLE_GEMINI_API_KEY
+        value: "AIzaSyDDzfDBbjQRuuaO_elWFGu7jWmiv6QG1RA"
+    buildFilter:
+      paths:
+        - frontend/**
+        - backend/**
+    staticPublishPath: frontend/dist
