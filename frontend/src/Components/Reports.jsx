@@ -14,7 +14,7 @@ const Reports = () => {
   const fetchReports = async () => {
     try {
       console.log("🔍 Fetching reports for:", city);
-      const response = await axios.get(`https://your-backend-service.onrender.com/api/reports/${city}`);
+      const response = await axios.get(`https://air-quality-prediction-0k3d.onrender.com/api/reports/${city}`);
       console.log("📦 Data received:", response.data);
       setReportData(response.data);
     } catch (err) {
