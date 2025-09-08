@@ -11,13 +11,6 @@ It also includes a chatbot assistant to interact with users and answer queries r
 
 🔗 [Deployed Application](air-quality-prediction-ten.vercel.app)
 
-This project is an **AI-powered web application** that monitors and predicts **Air Quality Index (AQI)** for different cities. It integrates **Flask (backend)** and **React (frontend)**, using a **Random Forest algorithm** to predict AQI based on city and year. The system fetches pollutant data through map integration (no physical sensors required) and provides real-time analysis with health suggestions. It also includes a **chatbot assistant** to interact with users and answer queries related to air quality.
-
-## 🚀 Live Demo
-
-🔗 [Deployed Application](https://air-quality-prediction-ten.vercel.app)
-
-
 ## ✨ Features
 
 * 🌐 User-friendly web interface
