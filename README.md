@@ -3,7 +3,6 @@
 
 ## 🌍 Overview
 
-
 This project is an **AI-powered web application** that monitors and predicts **Air Quality Index (AQI)** for different cities. It integrates **Flask (backend)** and **React (frontend)**, using a **Random Forest algorithm** to predict AQI based on city and year. The system fetches pollutant data through map integration (no physical sensors required) and provides real-time analysis with health suggestions.
 It also includes a chatbot assistant to interact with users and answer queries related to air quality.
 
@@ -21,9 +20,6 @@ It also includes a chatbot assistant to interact with users and answer queries r
 * 🩺 Health recommendations based on AQI levels
 
 * 💬 AI-powered chatbot for answering AQI & pollution-related queries
-=======
-* 💬 **AI-powered chatbot** for answering AQI & pollution-related queries
-
 
 ## 🛠 Tech Stack
 
@@ -64,9 +60,6 @@ It also includes a chatbot assistant to interact with users and answer queries r
 * Explore **pollutant analysis & health suggestions**
 
 * Chat with the AI chatbot for instant guidance
-=======
-* Chat with the **AI chatbot** for instant guidance
-
 
 ## 🚀 Future Enhancements
 
@@ -74,5 +67,4 @@ It also includes a chatbot assistant to interact with users and answer queries r
 * Mobile-friendly responsive UI
 * API integration for global AQI datasets
 * User login & personalized dashboards
-
-
+  
