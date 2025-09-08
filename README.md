@@ -1,8 +1,8 @@
 
-
 # Project : AI-powered Air Quality Monitoring and Pollution Prediction System
 
 ## 🌍 Overview
+
 
 This project is an **AI-powered web application** that monitors and predicts **Air Quality Index (AQI)** for different cities. It integrates **Flask (backend)** and **React (frontend)**, using a **Random Forest algorithm** to predict AQI based on city and year. The system fetches pollutant data through map integration (no physical sensors required) and provides real-time analysis with health suggestions.
 It also includes a chatbot assistant to interact with users and answer queries related to air quality.
@@ -10,6 +10,13 @@ It also includes a chatbot assistant to interact with users and answer queries r
 ## 🚀 Live Demo
 
 🔗 [Deployed Application](air-quality-prediction-ten.vercel.app)
+
+This project is an **AI-powered web application** that monitors and predicts **Air Quality Index (AQI)** for different cities. It integrates **Flask (backend)** and **React (frontend)**, using a **Random Forest algorithm** to predict AQI based on city and year. The system fetches pollutant data through map integration (no physical sensors required) and provides real-time analysis with health suggestions. It also includes a **chatbot assistant** to interact with users and answer queries related to air quality.
+
+## 🚀 Live Demo
+
+🔗 [Deployed Application](https://air-quality-prediction-ten.vercel.app)
+
 
 ## ✨ Features
 
@@ -19,7 +26,11 @@ It also includes a chatbot assistant to interact with users and answer queries r
 * 🏙️ City-wise air quality monitoring
 * 🏭 Analysis of traffic and industrial pollutants
 * 🩺 Health recommendations based on AQI levels
+
 * 💬 AI-powered chatbot for answering AQI & pollution-related queries
+=======
+* 💬 **AI-powered chatbot** for answering AQI & pollution-related queries
+
 
 ## 🛠 Tech Stack
 
@@ -58,7 +69,11 @@ It also includes a chatbot assistant to interact with users and answer queries r
 * View **real-time AQI data & graphs**
 * Get **predicted AQI** for upcoming years
 * Explore **pollutant analysis & health suggestions**
+
 * Chat with the AI chatbot for instant guidance
+=======
+* Chat with the **AI chatbot** for instant guidance
+
 
 ## 🚀 Future Enhancements
 
