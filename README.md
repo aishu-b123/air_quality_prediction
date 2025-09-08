@@ -6,7 +6,7 @@ This project is an **AI-powered web application** that monitors and predicts **A
 
 ## 🚀 Live Demo
 
-🔗 [Deployed Application](air-quality-prediction-ten.vercel.app)
+🔗 [Deployed Application]air-quality-prediction-ten.vercel.app
 
 ## ✨ Features
 
