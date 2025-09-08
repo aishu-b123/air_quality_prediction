@@ -9,7 +9,7 @@ It also includes a chatbot assistant to interact with users and answer queries r
 
 ## 🚀 Live Demo
 
-🔗 [Deployed Application](air-quality-prediction-ten.vercel.app)
+🔗 [Deployed Application](https://air-quality-prediction-ten.vercel.app)
 
 ## ✨ Features
 
